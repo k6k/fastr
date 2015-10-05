@@ -1,0 +1,23 @@
+$mutedBlue: #6D809E;
+
+table {
+    border-collapse: collapse;
+    
+    thead {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    tbody {
+        td {
+            font-size: 1rem;
+            
+            // & référence le sélecteur courant, par exemple pour lui adjoindre
+            // une classe ou une pseudo-classe.
+            // Ici, on décrut ainsi "table tbody td.wow" :
+            &.wow {
+                background-color: $mutedBlue;
+            }
+        }   
+    }
+}

@@ -1,0 +1,17 @@
+/* line 3, ../sass/style.scss */
+table {
+  border-collapse: collapse;
+}
+/* line 6, ../sass/style.scss */
+table thead {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 12, ../sass/style.scss */
+table tbody td {
+  font-size: 1rem;
+}
+/* line 18, ../sass/style.scss */
+table tbody td.wow {
+  background-color: #6D809E;
+}
